@@ -1,9 +1,14 @@
-﻿using System;
+﻿// Hello World program
+// Author: Branden Arthur
 
-public static class HelloWorld
+using System;
+
+namespace HelloWorld
 {
-    public static string Hello()
-    {
-        throw new NotImplementedException("You need to implement this function.");
+    Class Hello {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
     }
 }
