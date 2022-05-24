@@ -5,10 +5,11 @@ using System;
 
 namespace HelloWorld
 {
-    Class Hello {
-        static void Main(string[] args)
+    public static class HelloWorld
+    {
+        public static string Hello()
         {
-            Console.WriteLine("Hello World!");
+            return "Hello, World!";
         }
     }
 }
